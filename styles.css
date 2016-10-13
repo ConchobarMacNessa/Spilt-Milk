@@ -1,0 +1,15 @@
+
+h1 {
+	font-family: Lobster;
+}
+
+.under-text {
+	font-family: monospace;
+	font-color: #85807F;
+}
+
+.box {
+	border-style: ridge;
+	border-color: black;
+	border-width: ;
+}
