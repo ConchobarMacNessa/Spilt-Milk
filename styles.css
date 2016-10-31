@@ -1,15 +1,112 @@
-
-h1 {
-	font-family: Lobster;
+body {
+	background-image: url("1234.jpg");
 }
-
+h1 {
+	font-family: verdana;
+	color: white;
+}
+h2 {
+	font-family: verdana;
+	color: white;
+	font-size: 16px;
+}
+a:link {
+	color: gainsboro;
+}
+a:visited {
+	color: gainsboro;
+}
+a:hover {
+	color: white;
+}
+a {
+	text-decoration: none;
+	font-family: monospace;
+}
+form {
+	max-width: 450px;
+	margin: 0 auto 50px;
+}
+label {
+	display: block;
+	margin-bottom: 20px;
+	font-family: monospace;
+	color: #85807F;
+}
+span {
+	display: block;
+}
+.navigation-box {
+	background-color: black;
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
+	padding: 20px;
+}
+.footer-box {
+	background-color: black;
+	text-align: center;
+	padding: 1px;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+.title-box {
+	background-color: black;
+	padding: 50px;
+	text-align: justify;	
+	margin-right: 10%;
+	margin-left: 10%;
+}
 .under-text {
 	font-family: monospace;
-	font-color: #85807F;
+	color: #85807F;
 }
-
-.box {
-	border-style: ridge;
-	border-color: black;
-	border-width: ;
+.blog-text {
+	font-family: monospace;
+	color: white;
+}
+.circular-border {
+	border-radius: 50%;
+}
+.group1 {
+	width: 50%;
+	padding-right: 10px;
+	float: left;
+}
+input, textarea {
+	border-color: slategray;
+	border: 3px;
+}
+table {
+	font-family: monospace;
+	color: #85807F;
+}
+.empty-space {
+	padding: 20px;
+	background-color: none;
+}
+.table-box {
+	background-color: black;
+	padding: 5px 5px 15px 5px;
+}
+.dropbtn {
+	background-color: black;
+	padding: 16px;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-color: whitesmoke;
+	border-style: solid;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
 }
